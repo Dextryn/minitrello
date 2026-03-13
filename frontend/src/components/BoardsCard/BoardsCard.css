@@ -1,0 +1,41 @@
+.board-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.board-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+}
+
+.board-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.board-actions {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.board-link {
+  text-decoration: none;    /* remove underline */
+  color: #172b4d;           /* regular color */
+}
+
+.board-link:hover {
+  color: #1e5ed1;           /* hover color */
+}
+
+.board-link:visited {
+  color: #172b4d;           /* keep same as normal */
+}

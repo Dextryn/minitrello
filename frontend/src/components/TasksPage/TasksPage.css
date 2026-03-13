@@ -1,0 +1,32 @@
+.tasks-page {
+  max-width: 800px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #5b8def, #83aff0);
+  color: white;
+  padding: 24px 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 20px
+}
+
+.tasks-page h2 {
+  max-width: 800px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #5b8def, #83aff0);
+  color: white;
+  padding: 24px 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 20px
+}
+
+.tasks-page h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}

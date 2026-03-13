@@ -1,0 +1,89 @@
+/* =============================
+   Board Container (all boards)
+============================= */
+.board-container {
+    display: flex;         
+    gap: 20px;             
+    padding: 20px;
+    overflow-x: auto;      /* horizontal scroll if many boards */
+    align-items: flex-start;
+}
+
+.board-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.board-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+/* Individual board */
+.board {
+  min-width: 220px;
+  max-width: 250px;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.boards-header {
+  max-width: 800px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #5b8def, #83aff0);
+  color: white;
+  padding: 24px 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 20px;
+}
+
+.boards-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto 20px auto;
+}
+
+.boards-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.board h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #172b4d;
+}
+
+.board-description-textarea {
+  width: 350px;
+  height: 215px;
+  padding: 10px;
+  font-size: 14px;
+  resize: vertical; /* lets user resize up/down only */
+}
+
+.board-create-button {
+  display: flex;
+  justify-content: end;
+  margin-top: 50px;
+  
+}
+
+.boards-wrapper {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.board:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}

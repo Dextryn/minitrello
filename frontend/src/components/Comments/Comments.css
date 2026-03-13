@@ -1,0 +1,51 @@
+/* =============================
+  Comments inside a Tasks
+============================= */
+.comments-container {
+    display: flex;         
+    gap: 20px;             
+    padding: 20px;
+    overflow-x: auto;      /* horizontal scroll if many tasks */
+    align-items: flex-start;
+}
+
+.comment {
+    background-color: #ebecf0;
+    border-radius: 8px;
+    padding: 16px;
+    min-width: 250px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.comment-header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.comment-wrapper {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.comment-link {
+  text-decoration: none;    /* remove underline */
+  color: #172b4d;           /* regular color */
+}
+
+.comment-link:hover {
+  color: #1e5ed1;           /* hover color */
+}
+
+.comment-link:visited {
+  color: #172b4d;           /* keep same as normal */
+}
