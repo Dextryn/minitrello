@@ -37,8 +37,8 @@ MiniTrello/
 
 ## ⚙️ Setup & Installation
 
-1. Clone the repo:
 ```bash
+1. Clone the repo:
 git clone git@github.com:Dextryn/minitrello.git
 cd MiniTrello
 
